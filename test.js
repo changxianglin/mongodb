@@ -1,3 +1,6 @@
+// 引入数据库
+// 链接数据库
+// 创建数据库
 const MongoClient = require('mongodb').MongoClient
 const url = 'mongodb://localhost:27017/mydb'
 
