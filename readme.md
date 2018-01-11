@@ -4,3 +4,5 @@
   * 2.开启服务
   * 3.链接服务器
   * 4.使用服务器
+* 使用 node 操作 mongoDB 可用 mongose 来操作
+* webstrom 可用(https://www.cnblogs.com/woaic/p/6024975.html）

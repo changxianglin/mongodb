@@ -1,12 +1,12 @@
 var MongoClient = require('mongodb').MongoClient;
-var DB_CONN_STR = 'mongodb://localhost:27017/zhourong';
+var DB_CONN_STR = 'mongodb://localhost:27017/mydb';
 
 var insertData = function(db, callback) {
     //连接到表 site
-    var collection = db.collection;
+    var collection = db.collection('runoob');
     //插入数据
     var data = [{"name":"菜鸟教程","url":"www.runoob.com"},{"name":"菜鸟工具","url":"c.runoob.com"}];
-    collection.insertMany(data, function(err, result) {
+    collection.insert(data, function(err, result) {
         if(err)
         {
             console.log('Error:'+ err);
