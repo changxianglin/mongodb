@@ -10,7 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.23.5",
+    "css-loader": "^0.28.8",
     "gulp": "^3.9.1",
-    "gulp-connect": "^5.2.0"
+    "gulp-connect": "^5.2.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
   }
 }
