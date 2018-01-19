@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="319d88c8-014e-4f5b-a21c-ceb9fc32225b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/create.js" afterPath="$PROJECT_DIR$/create.js" />
-      <change beforePath="$PROJECT_DIR$/insertData.js" afterPath="$PROJECT_DIR$/insertData.js" />
-      <change beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
+      <change beforePath="$PROJECT_DIR$/testApp/myapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/testApp/myapp/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/testApp/myweb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/testApp/myweb/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,6 +105,11 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="mongodb" type="cbb8eebc:String" user="mongodb" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="mongodb" type="cbb8eebc:String" user="mongodb" />
+              <item name="testApp" type="cbb8eebc:String" user="testApp" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,7 +118,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login-mongodb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testApp/myweb" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -170,11 +175,12 @@
       <workItem from="1515811865113" duration="5658000" />
       <workItem from="1515982088287" duration="2107000" />
       <workItem from="1515985450117" duration="23000" />
+      <workItem from="1516324856346" duration="160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36309000" />
+    <option name="totallyTimeSpent" value="36469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="274" y="161" width="1123" height="1000" extended-state="0" />

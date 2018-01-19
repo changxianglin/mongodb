@@ -13,7 +13,7 @@ gulp.task('msgPage', function() {
 })
 
 gulp.task('server', function() {
-    var middleware = proxyMiddleware(['/**'], {
+    var middleware = proxyMiddleware(['/apps', '/users', '/birds'], {
         target: 'http://127.0.0.1:8000',
         changeOrigin: true
     })

@@ -8,15 +8,36 @@
     <title>Document</title>
 </head>
 <body>
-<button>button01</button>
+<button class="btntest">button01</button>
 <button>button02</button>
 <button>button03</button>
 <button>button04</button>
 <button>button05</button>
 <button>button06</button>
-<button>button07</button>
+<button>button07
+    <a href="test.html">button test</a>
+</button>
 <script type="text/javascript" >
 
+var ajax = function(method, url) {
+    var xhr =  new XMLHttpRequest()
+    xhr.onreadystatechange = function() {
+        if(xhr.status == 200 && xhr.readyState == 4) {
+            console.log(xhr.responseText)
+            history.pushState('', 'new title', '#www.douban.com')
+        }
+    }
+    xhr.open(method, url)
+    xhr.send()
+}
+var btnClick = function() {
+    console.log('in')
+    var findClass = document.querySelector('.btntest')
+    findClass.addEventListener('click', function(){
+    ajax('PUT', '/users/user')
+    })
+}
+btnClick()
 </script>
 </body>
 </html>
