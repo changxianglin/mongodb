@@ -17,3 +17,20 @@ Todo({item: 'Hello Everyone!'}).save(function(err, data) {
     console.log('Item saved')
 })
 
+// curd 增删改查
+
+Todo().delete(function(err, data) {
+    if(err) throw err
+    console.log('Running delete')
+})
+
+Todo().upate(function(err, data) {
+    if(err) throw err
+    console.log('Running update')
+})
+
+Todo().find(function(err, data) {
+    if(err) throw err
+    console.log('Runing find')
+})
+
